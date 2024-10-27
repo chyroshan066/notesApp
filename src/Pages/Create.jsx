@@ -19,18 +19,18 @@ const Create = () => {
         </Typography>
 
         <Button 
-            color='info' 
+            color='secondary' 
             type='submit' 
             variant='contained'
-            disableElevation
+            // disableElevation
             endIcon={<KeyboardArrowRightIcon />}
-            sx={{
-                backgroundColor: 'red',
-                fontSize: 60,
-                '&:hover': {
-                    backgroundColor: 'blue',
-                }
-            }}
+            // sx={{
+            //     backgroundColor: 'red',
+            //     fontSize: 60,
+            //     '&:hover': {
+            //         backgroundColor: 'blue',
+            //     }
+            // }}
         >
         Submit
         </Button>
